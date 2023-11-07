@@ -3,7 +3,7 @@ require("dotenv").config()
 const mongoose = require("mongoose")
 
 const connectionString = process.env.DATABASE_URL
-
+//const connectionString = 'mongodb+srv://projetofap:rZIu3MSKbIsJfxKW@cluster0.v0b6oma.mongodb.net/booking?retryWrites=true&w=majority'
 
 function connectToDatabase(){
     mongoose.connect(
